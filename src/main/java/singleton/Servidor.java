@@ -3,7 +3,7 @@ package singleton;
 public class Servidor {
 
         private Servidor() {};
-        private static final Servidor instance = new Servidor();
+        private static Servidor instance = new Servidor();
         public static Servidor getServidor() {
             return instance;
         }
